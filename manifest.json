@@ -1,28 +1,12 @@
+
 {
-  "manifest_version": 3,
-  "name": "Color Extension",
+  "name": "Colors Extension",
   "version": "1.0",
-  "icons": {
-    "16": "",
-    "36": "",
-    "48": "",
-    "128": ""
-  },
-  "description": "Color Extension",
-  "content_scripts": [
-    {
-      "matches": [],
-      "js": ["main.js"],
-      "css": ["index.css"]
-    }
-  ],
+  "description" : "This is a color picker that copies color ###### rbg from chrome window.",
+  "manifest_version": 3,
+  "author": "Tony Gao, Jacob Melendez",
   "action": {
-    "default_icon": {
-      "16": "",
-      "36": ""
-    },
-    "default_popup": "popup.html",
-    "default_title": "Color Extension"
-  },
-  "permissions": ["management"]
+    "default_popup": "index.html",
+    "default_title": "Colors Extension"
+  }
 }

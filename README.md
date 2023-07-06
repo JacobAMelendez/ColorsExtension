@@ -21,3 +21,32 @@ Things to figure out :
         let combo = 'grabbed string'
 
 [] 3. how to store this color into macbook system's copy/paster
+<!-- {
+        //moving this here so i can work on manifest.json without damanging preexisting code
+  "manifest_version": 3,
+  "name": "Color Extension",
+  "version": "1.0",
+  "icons": {
+    "16": "",
+    "36": "",
+    "48": "",
+    "128": ""
+  },
+  "description": "Color Extension",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["main.js"],
+      "css": ["index.css"]
+    }
+  ],
+  "action": { 
+    "default_icon": {
+      "16": "",
+      "36": ""
+    },
+    "default_popup": "popup.html",
+    "default_title": "Color Extension"
+  },
+  "permissions": ["management"]
+} -->
