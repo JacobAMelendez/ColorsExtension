@@ -53,4 +53,10 @@ Things to figure out :
     "default_title": "Color Extension"
   },
   "permissions": ["management"]
+
+
+
+
+
+      
 } -->

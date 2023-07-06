@@ -6,7 +6,10 @@
   "manifest_version": 3,
   "author": "Tony Gao, Jacob Melendez",
   "action": {
-    "default_popup": "index.html",
     "default_title": "Colors Extension"
+  },
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker":"action.js"
   }
 }
