@@ -15,6 +15,13 @@ document.getElementById('start-button').addEventListener('click', () => {
     resultElement.textContent = result.sRGBHex;
     resultElement.style.backgroundColor = result.sRGBHex;
     // console.log(resultElement.textContent);
+    if (resultElement.textContent[1] < 4 ){
+      // console.log(resultElement.textContent[1]);
+      document.getElementById("result").style.color = "white";
+    }
+      //   // console.log(color[1]);
+    // };
+     
   })
   .then(() => {//custom written code to copy to clipboard
     const copyText = resultElement.textContent;
@@ -26,5 +33,5 @@ document.getElementById('start-button').addEventListener('click', () => {
   
     setTimeout(() => {
         abortController.abort();
-      }, 60000);
+      }, 60000);// will time out after 1 min;
   });
