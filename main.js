@@ -15,7 +15,8 @@ document.getElementById('start-button').addEventListener('click', () => {
     resultElement.textContent = result.sRGBHex;
     resultElement.style.backgroundColor = result.sRGBHex;
     // console.log(resultElement.textContent);
-    if (resultElement.textContent[1] < 4 ){
+    // f e d c b a 9 8 7 6 5 4 3 2 1 
+    if (resultElement.textContent[1] <= 5 ){
       // console.log(resultElement.textContent[1]);
       document.getElementById("result").style.color = "white";
     }

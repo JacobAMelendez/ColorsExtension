@@ -22,6 +22,9 @@ Things to figure out :
 
 [x] 3. how to store this color into macbook system's copy/paster
 [x] 4. Change text color based on how dark background is made.
+[]  5. change the action of color picker to the icon instead of a drop 
+
+
 <!-- {
         //moving this here so i can work on manifest.json without damanging preexisting code
   "manifest_version": 3,
